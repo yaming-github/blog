@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Yaming&#39;s BLOG</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="http://yamingzhang.com/favicon.ico">
+    <link rel="canonical" href="http://yamingzhang.com">
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="http://yamingzhang.com">Yaming&#39;s BLOG</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/about/">
+                                    
+                                    <span>About</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/post/">
+                                    
+                                    <span>All posts</span>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav><div id="content" class="container">
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>Gs1api issue - Fri, Nov 27, 2020</h1>
+    </div>
+    <p class="lead"></p>
+    <h1 id="gs1api-issue">Gs1api issue</h1>
+<ol>
+<li>
+<p>http 404</p>
+<ul>
+<li>Error: <strong>Request failed with status code 404</strong></li>
+<li>Time: 10:38:32.266</li>
+<li>Get url: <a href="http://api.chinatrace.org/AAQI/v1/ProductData/gtin/?targetMarket=156&amp;dataVersion=1.1&amp;clientGln=6901234501681&amp;mac=4A8A61C32414868DF0203AE4701120375CB025DBA6CF44477DC4914986A68F5D">http://api.chinatrace.org/AAQI/v1/ProductData/gtin/?targetMarket=156&amp;dataVersion=1.1&amp;clientGln=6901234501681&amp;mac=4A8A61C32414868DF0203AE4701120375CB025DBA6CF44477DC4914986A68F5D</a></li>
+<li>Reason: No gtin</li>
+</ul>
+</li>
+<li>
+<p>http 400</p>
+<ul>
+<li>Error: <strong>Request failed with status code 400</strong></li>
+<li>Time: 10:50:23.266</li>
+<li>Get url: <a href="http://api.chinatrace.org/AAQI/v1/ProductData/gtin/01.01.02.007%1?targetMarket=156&amp;dataVersion=1.1&amp;clientGln=6901234501681&amp;mac=A1E9754A9E98599E926542C79DFA171A21C778AED25D127D0202549B37363CC0">http://api.chinatrace.org/AAQI/v1/ProductData/gtin/01.01.02.007%1?targetMarket=156&amp;dataVersion=1.1&amp;clientGln=6901234501681&amp;mac=A1E9754A9E98599E926542C79DFA171A21C778AED25D127D0202549B37363CC0</a></li>
+<li>Reason: Error gtin format</li>
+</ul>
+</li>
+<li>
+<p>http 500</p>
+<ul>
+<li>
+<p>Error: <strong>Request failed with status code 500</strong></p>
+</li>
+<li>
+<p>Time: 10:50:02.501</p>
+</li>
+<li>
+<p>Get url: <a href="http://api.chinatrace.org/AAQI/v1/ProductData/gtin/D0034055275011?targetMarket=156&amp;dataVersion=1.1&amp;clientGln=6901234501681&amp;mac=7890492600E48714E0D4A28C1F1157B4D33B4205D818BDDF54F849FB37D67D71">http://api.chinatrace.org/AAQI/v1/ProductData/gtin/D0034055275011?targetMarket=156&amp;dataVersion=1.1&amp;clientGln=6901234501681&amp;mac=7890492600E48714E0D4A28C1F1157B4D33B4205D818BDDF54F849FB37D67D71</a></p>
+</li>
+<li>
+<p>Reason: <strong>Request processing failed; nested exception is java.lang.NumberFormatException: For input</strong></p>
+<p>​        <strong>string</strong> (Error gtin format)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>TypeError</p>
+<ul>
+<li>Error: <strong>TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters</strong></li>
+<li>Time: 10:34:20.381</li>
+<li>Get url: <a href="http://api.chinatrace.org/AAQI/v1/ProductData/gtin/">http://api.chinatrace.org/AAQI/v1/ProductData/gtin/</a>16544009058?targetMarket=156&amp;dataVersion=1.1&amp;clientGln=6901234501681&amp;mac=D81723F7DAA6161BF8C5E17CFB92C6D4BE44D4A31B36017C0A3AE1F7916991A6</li>
+<li>Reason: Error MAC</li>
+</ul>
+</li>
+</ol>
+
+    <h4><a href="http://yamingzhang.com">Back to Home</a></h4>
+</div>
+
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p>
+
+&copy; 
+
+    Yaming Zhang
+
+<span id="thisyear">2020</span>
+
+
+        | Built on <a href="//gohugo.io" target="_blank">Hugo</a>
+</p>
+    <p class="text-center">
+        <a href="https://facebook.com">Facebook</a> 
+        <a href="https://twitter.com">Twitter</a> 
+        <a href="https://linkedin.com">Linkedin</a> 
+        <a href="https://github.com">GitHub</a> 
+        <a href="https://gitlab.com">GitLab</a>
+    </p>
+</footer>
+
+</body><link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap-386.js"></script>
+<script src="/js/bootstrap-transition.js"></script>
+<script src="/js/bootstrap-alert.js"></script>
+<script src="/js/bootstrap-modal.js"></script>
+<script src="/js/bootstrap-dropdown.js"></script>
+<script src="/js/bootstrap-scrollspy.js"></script>
+<script src="/js/bootstrap-tab.js"></script>
+<script src="/js/bootstrap-tooltip.js"></script>
+<script src="/js/bootstrap-popover.js"></script>
+<script src="/js/bootstrap-button.js"></script>
+<script src="/js/bootstrap-collapse.js"></script>
+<script src="/js/bootstrap-carousel.js"></script>
+<script src="/js/bootstrap-typeahead.js"></script>
+<script src="/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: true ,
+        onePass: true , 
+        speedFactor: 1 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script></html>

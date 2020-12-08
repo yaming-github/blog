@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://yamingzhang.com/post/gs1api/</loc>
+    <lastmod>2020-11-27T15:12:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yamingzhang.com/post/</loc>
+    <lastmod>2020-11-27T15:12:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yamingzhang.com/</loc>
+    <lastmod>2020-11-27T15:12:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yamingzhang.com/post/test/</loc>
+    <lastmod>2020-11-27T15:11:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yamingzhang.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://yamingzhang.com/tags/</loc>
+  </url>
+  
+</urlset>
