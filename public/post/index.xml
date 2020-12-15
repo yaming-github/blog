@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Yaming&#39;s BLOG</title>
-    <link>http://yamingzhang.com/post/</link>
+    <link>https://yamingzhang.com/post/</link>
     <description>Recent content in Posts on Yaming&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2020 15:12:22 +0800</lastBuildDate><atom:link href="http://yamingzhang.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2020 15:12:22 +0800</lastBuildDate><atom:link href="https://yamingzhang.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gs1api issue</title>
-      <link>http://yamingzhang.com/post/gs1api/</link>
+      <link>https://yamingzhang.com/post/gs1api/</link>
       <pubDate>Fri, 27 Nov 2020 15:12:22 +0800</pubDate>
       
-      <guid>http://yamingzhang.com/post/gs1api/</guid>
+      <guid>https://yamingzhang.com/post/gs1api/</guid>
       <description>Gs1api issue   http 404
  Error: Request failed with status code 404 Time: 10:38:32.266 Get url: http://api.chinatrace.org/AAQI/v1/ProductData/gtin/?targetMarket=156&amp;amp;dataVersion=1.1&amp;amp;clientGln=6901234501681&amp;amp;mac=4A8A61C32414868DF0203AE4701120375CB025DBA6CF44477DC4914986A68F5D Reason: No gtin    http 400
  Error: Request failed with status code 400 Time: 10:50:23.266 Get url: http://api.chinatrace.org/AAQI/v1/ProductData/gtin/01.01.02.007%1?targetMarket=156&amp;amp;dataVersion=1.1&amp;amp;clientGln=6901234501681&amp;amp;mac=A1E9754A9E98599E926542C79DFA171A21C778AED25D127D0202549B37363CC0 Reason: Error gtin format    http 500
@@ -24,10 +24,10 @@
     
     <item>
       <title>Welcome to my page</title>
-      <link>http://yamingzhang.com/post/test/</link>
+      <link>https://yamingzhang.com/post/test/</link>
       <pubDate>Fri, 27 Nov 2020 15:11:22 +0800</pubDate>
       
-      <guid>http://yamingzhang.com/post/test/</guid>
+      <guid>https://yamingzhang.com/post/test/</guid>
       <description>Hello World! </description>
     </item>
     

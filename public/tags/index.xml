@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yaming&#39;s BLOG</title>
-    <link>http://yamingzhang.com/tags/</link>
+    <link>https://yamingzhang.com/tags/</link>
     <description>Recent content in Tags on Yaming&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://yamingzhang.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://yamingzhang.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
